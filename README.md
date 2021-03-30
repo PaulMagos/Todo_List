@@ -1,4 +1,4 @@
-# todo-test
+# Todo List [Vue.js]
 
 Simple Vue.js Todo List project
 Made with WebStorm - JetBrains 
