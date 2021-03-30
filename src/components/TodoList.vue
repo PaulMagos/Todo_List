@@ -19,7 +19,7 @@
     <!-- Bar with filter for all, active and completed todos. At the right the clear completed button -->
     <div class="options-container">
       <div class="w3-bar w3-light-gray w3-round">
-        <button class="w3-bar-item w3-button w3-round" :class="{'w3-green': filter === ''}" @click="filter = ''">All</button>
+        <button class="w3-bar-item w3-button w3-round" :class="{'w3-green': filter === ''}" v-touch="filter = ''" @click="filter = ''">All</button>
         <button class="w3-bar-item w3-button w3-round" :class="{'w3-green': filter === 'active'}" @click="filter = 'active'">Active</button>
         <button class="w3-bar-item w3-button w3-round" :class="{'w3-green': filter === 'completed'}" @click="filter = 'completed'">Completed</button>
         <button v-if="showClear" class="w3-bar-item w3-button w3-round w3-animate-opacity w3-right w3-red" @click="clearCompleted">Clear Completed</button>
