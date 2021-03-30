@@ -1,5 +1,8 @@
 # todo-test
 
+Simple Vue.js Todo List project
+Made with WebStorm - JetBrains 
+
 ## Project setup
 ```
 npm install
@@ -22,3 +25,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+[![Build Status](https://travis-ci.org/tastejs/todomvc.svg)](https://travis-ci.org/tastejs/todomvc)
