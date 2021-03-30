@@ -22,7 +22,7 @@
         <button class="w3-bar-item w3-button w3-round" :class="{'w3-green': filter === ''}" v-touch="filter = ''" @click="filter = ''">All</button>
         <button class="w3-bar-item w3-button w3-round" :class="{'w3-green': filter === 'active'}" @click="filter = 'active'">Active</button>
         <button class="w3-bar-item w3-button w3-round" :class="{'w3-green': filter === 'completed'}" @click="filter = 'completed'">Completed</button>
-        <button v-if="showClear" class="w3-bar-item w3-button w3-round w3-animate-opacity w3-right w3-red" @click="clearCompleted">Clear Completed</button>
+        <button v-if="showClear" class="w3-bar-item w3-button w3-round w3-animate-opacity w3-right w3-red" v-touch="clearCompleted" @click="clearCompleted">Clear Completed</button>
       </div>
     </div>
   </div>
